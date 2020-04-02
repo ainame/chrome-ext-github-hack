@@ -1,0 +1,29 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "images/favicon-32x32.png",
+    "default_popup": "index.html",
+    "default_title": "Happy Hacking!"
+  },
+  "description": "Happy Hacking on GitHub",
+  "icons": {
+    "16": "images/favicon-16x16.png",
+    "32": "images/favicon-32x32.png",
+    "192": "images/android-chrome-192x192.png",
+    "512": "images/android-chrome-512x512.png"
+  },
+  "manifest_version": 2,
+  "name": "github-hack",
+  "permissions": [
+    "*://github.com/*",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "version": "1.0"
+}
