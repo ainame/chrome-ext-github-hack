@@ -1,6 +1,6 @@
 # chrome-ext-github-hack
 
-Support your development on github.com.
+Accelerate your development on github.com ⚡️
 
 ## Install
 
